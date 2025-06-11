@@ -1,0 +1,885 @@
+/*1024-1199*/
+@media only screen and (max-width: 1199px) {
+    .header, .main, .description, .differences, #menu, .reviews, .stock, .reserve, .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header-container {
+        box-sizing: border-box;
+        justify-content: space-evenly;
+    }
+
+    .header-menu a {
+        margin: 0 10px;
+    }
+
+    .main-container {
+        justify-content: space-evenly;
+    }
+
+    .main-title {
+        font-size: 46px;
+    }
+
+    .main-text {
+        max-width: 470px;
+    }
+
+    .main-promotion-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    .main-promotion-image img {
+        right: -170px;
+    }
+
+    .main-promotion-time {
+        right: 30px;
+    }
+
+    .main-promotion-newprice {
+        right: -33px;
+    }
+
+    .main-promotion-price {
+        right: -27px;
+    }
+
+    .description-container {
+        max-width: 1000px;
+    }
+
+    #burger-brown {
+        max-width: 50%;
+        left: -11px;
+    }
+
+    #burger-black {
+        max-width: 50%;
+    }
+
+    #burger-green {
+        max-width: 50%;
+        right: 25px;
+    }
+
+    .slick-slide .slick-current {
+        width: 180px;
+    }
+
+    .slick-list.draggable {
+        max-width: 700px;
+        left: unset;
+        margin: 0 auto;
+    }
+
+    .slick-prev {
+        left: 105px;
+    }
+
+    .slick-next {
+        right: 130px;
+    }
+
+    .reviews-info .slick-prev {
+        left: -54px;
+    }
+
+    .reviews-info .slick-next {
+        right: -19px;
+    }
+
+    .stock-menu {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1100px;
+    }
+
+    .stock-menu3 {
+        order: 3;
+    }
+
+    .stock-menu3 img {
+        width: 371px;
+        order: 3;
+    }
+
+    .stock-menu4 img {
+        width: 371px;
+    }
+
+    .reserve {
+        overflow: initial;
+    }
+
+    .reserve-image img {
+        margin: 0;
+    }
+
+    .reserve-privacy img {
+        right: -90px;
+    }
+}
+
+/*768-1023*/
+@media only screen and (max-width: 1023px) {
+    .header-container {
+        flex-wrap: wrap;
+    }
+
+    .header-logo {
+        margin: 0;
+    }
+
+    .header-address {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-address a img {
+        margin-left: 20px;
+    }
+
+    .main-title {
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .main-text {
+        font-size: 16px;
+        max-width: 350px;
+    }
+
+    .main-description {
+        margin: 0;
+        align-items: flex-end;
+    }
+
+    .main-description-title {
+        align-items: flex-end;
+    }
+
+    .main-description-text {
+        margin: 0;
+        font-size: 12px;
+        z-index: 1;
+    }
+
+    .main-description-image img {
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .main-promotion-image img {
+        width: 500px;
+        height: 436px;
+        right: -65px;
+    }
+
+    .main-promotion-time {
+        right: 55px;
+        top: -15px;
+    }
+
+    .main-promotion-price {
+        top: 100px;
+        right: 0;
+    }
+
+    .main-promotion-newprice {
+        top: 70px;
+        right: -5px;
+    }
+
+    .main-promotion-title {
+        font-size: 20px;
+    }
+
+    .main-promotion-text {
+        font-size: 12px;
+        width: 186px;
+    }
+
+    .description {
+        padding-top: 100px;
+    }
+
+    .differences-image-pepper {
+        right: 30px;
+    }
+
+    .differences-advantages-image-burger img {
+        width: 100%;
+    }
+
+    #menu {
+        padding-top: 0;
+    }
+
+    #chicken-container, #beef-container, #duck-container, #crab-container {
+        max-width: 600px;
+    }
+
+    .slick-slide {
+        margin: 0 10px;
+    }
+
+    .slick-prev {
+        left: -62px;
+    }
+
+    .slick-next {
+        right: -40px;
+    }
+
+    .slick-slide .slick-current {
+        width: 200px;
+    }
+
+    #reviews {
+        margin-top: 100px;
+    }
+
+    .review {
+        padding: 18px 18px 33px 18px;
+    }
+
+    .reviews-info .slick-next {
+        right: -25px;
+    }
+
+    .reviews-info .slick-prev {
+        left: -50px;
+    }
+
+    .reviews-info .slick-list.draggable {
+        width: 640px;
+    }
+
+    .stock, .reserve {
+        margin-top: 100px;
+    }
+
+    .reserve-image img {
+        margin: 0;
+    }
+
+    .reserve-privacy img {
+        right: -16px;
+        bottom: -135px;
+    }
+
+    .footer {
+        margin-top: 100px;
+    }
+
+    .popup-content {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .header-address {
+        order: 2;
+        margin-bottom: 60px;
+    }
+
+    .header-menu {
+        order: 3;
+    }
+}
+
+/*580-767*/
+@media screen and (max-width: 767px) {
+    .header-address {
+        margin-top: 30px;
+    }
+
+    .main {
+        padding: 0;
+    }
+
+    .main-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-title {
+        width: 720px;
+        text-align: center;
+    }
+
+    .main-text {
+        max-width: 388px;
+        text-align: center;
+    }
+
+    .main-action {
+        display: flex;
+        margin-top: 620px;
+    }
+
+    .main-description {
+        flex-direction: column;
+        order: 5;
+    }
+
+    .main-description-title {
+        margin: 0;
+    }
+
+    .main-promotion {
+        order: -1;
+    }
+
+    .main-promotion-image img {
+        width: 480px;
+        height: 420px;
+        right: -173px;
+        top: 380px;
+    }
+
+    .main-promotion-time {
+        right: -25px;
+        top: 420px;
+    }
+
+    .main-promotion-newprice {
+        right: -40px;
+        top: 760px;
+        font-size: 30px;
+    }
+
+    .main-promotion-price {
+        right: -33px;
+        top: 800px;
+        font-size: 20px;
+    }
+
+    .main-promotion-name {
+        margin: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        bottom: -850px;
+    }
+
+    .main-promotion-title {
+        font-size: 30px;
+    }
+
+    .main-promotion-text {
+        font-size: 15px;
+        width: 270px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .description-text {
+        line-height: 140%;
+    }
+
+    .description-image {
+        margin-top: -50px;
+    }
+
+    #burger-brown {
+        top: 17px;
+        left: -5px;
+    }
+
+    #burger-green {
+        top: 8px;
+        right: 15px;
+    }
+
+    .differences-advantages-text {
+        font-size: 12px;
+    }
+
+    .differences-image-pepper {
+        right: -50px;
+    }
+
+    .differences-advantages-image-burger {
+        text-align: center;
+    }
+
+    .differences-advantages {
+        max-width: 160px;
+    }
+
+    .menu-container {
+        max-width: 580px;
+    }
+
+    .product-content-description {
+        margin-bottom: 30px;
+    }
+
+    .product-content-title {
+        margin-top: 15px;
+    }
+
+    .product-image {
+        margin: 0;
+    }
+
+    .products .slick-list.draggable {
+        max-width: 460px;
+    }
+
+    .products .slick-prev {
+        left: calc(50% - 60px);
+    }
+
+    .products .slick-next {
+        right: calc(50% - 30px);
+    }
+
+    .products .slick-prev, .products .slick-next {
+        bottom: -35px;
+        top: unset;
+    }
+
+    .reviews-info .slick-initialized.slick-slider {
+        max-width: 320px;
+    }
+
+    .review {
+        margin-bottom: 20px;
+    }
+
+    .reviews-info .slick-prev {
+        top: 360px;
+        left: 100px;
+    }
+
+    .reviews-info .slick-next {
+        top: 360px;
+        right: 140px;
+    }
+
+    .reviews .slick-list.draggable {
+        width: 320px;
+        left: 8px;
+    }
+
+    .reserve-container {
+        flex-direction: column;
+    }
+
+    .reserve-form {
+        margin: 0;
+        max-width: 268px;
+    }
+
+    .reserve-order-form {
+        text-align: center;
+    }
+
+    .reserve-form-text {
+        text-align: center;
+    }
+
+    .timer-container {
+        justify-content: center;
+    }
+
+    .reserve-image {
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .reserve-image img {
+        margin-top: -70px;
+    }
+
+    .reserve-privacy img {
+        display: none;
+    }
+
+    .reserve-privacy {
+        text-align: center;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .popup-close {
+        top: 10px;
+    }
+
+    .popup-content {
+        width: 290px;
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popup-title {
+        padding-top: 30px;
+        font-size: 25px;
+        max-width: 230px;
+        line-height: 35px;
+    }
+
+    .popup-text {
+        font-size: 12px;
+        max-width: 208px;
+        order: 2;
+    }
+
+    .popup-image {
+        margin: 25px 0 0 0;
+    }
+
+    .popup-image img {
+        max-width: 100%;
+        order: 1;
+    }
+}
+
+/*425-579*/
+@media only screen and (max-width: 579px) {
+    .header-logo {
+        margin-top: 20px;
+    }
+
+    .header-container {
+        position: relative;
+    }
+
+    .header-title {
+        display: flex;
+    }
+
+    #burger {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 0;
+    }
+
+    .header-menu.open {
+        background: black;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .header-address.open {
+        display: flex;
+    }
+
+    .header-menu {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        margin: 0;
+        padding-top: 60px;
+        background: #000000b9;
+        top: 0;
+        left: 0;
+        z-index: 999;
+        text-align: center;
+        line-height: 3.429;
+    }
+
+    .header-menu a {
+        font-size: 14px;
+    }
+
+    .header-address {
+        display: none;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        z-index: 999;
+        text-align: center;
+    }
+
+    .header-menu svg {
+        display: block;
+        fill: rgb(255, 255, 255);
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .main-title {
+        width: 450px;
+    }
+
+    .main-text {
+        font-size: 12px;
+        max-width: 290px;
+    }
+
+    .main-promotion-image img {
+        right: -106px;
+        top: 300px;
+        width: 370px;
+        height: 325px;
+    }
+
+    .main-promotion-time {
+        right: 10px;
+        top: 310px;
+    }
+
+    .main-promotion-newprice {
+        font-size: 24px;
+        right: -13px;
+        top: 583px;
+    }
+
+    .main-promotion-price {
+        font-size: 16px;
+        right: -7px;
+        top: 610px;
+    }
+
+    .main-promotion-name {
+        bottom: -660px;
+    }
+
+    .main-promotion-title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .main-promotion-text {
+        font-size: 12px;
+        max-width: 244px;
+        text-align: center;
+        line-height: 20px;
+    }
+
+    .main-action {
+        margin-top: 470px;
+    }
+
+    .description-title {
+        position: relative;
+    }
+
+    .description-text {
+        font-size: 12px;
+        max-width: 293px;
+    }
+
+    .description-image {
+        margin-top: -30px;
+    }
+
+    #burger-brown {
+        top: 10px;
+    }
+
+    .differences-title img {
+        display: none;
+    }
+
+    .differences-container {
+        flex-direction: column;
+    }
+
+    .differences-advantages {
+        max-width: 135px;
+        margin: 15px;
+    }
+
+    .differences-advantages-text {
+        margin-bottom: 0;
+    }
+
+    .differences-advantages-left {
+        margin-top: 30px;
+        display: flex;
+        order: 2;
+    }
+
+    .differences-advantages-right {
+        display: flex;
+        order: 2;
+        margin-top: 30px;
+        align-items: flex-end;
+    }
+
+    .differences-advantages-image-burger {
+        order: 3;
+        margin-top: -60px;
+        text-align: center;
+    }
+
+    .differences-advantages-image-burger img {
+        max-width: 100%;
+    }
+
+    .category, .category.active {
+        font-size: 11px;
+        margin: 20px;
+    }
+
+    #chicken-container, #beef-container, #duck-container, #crab-container {
+        max-width: 400px;
+        margin-top: -50px;
+    }
+
+    .slick-initialized .slick-slide {
+        text-align: center;
+        margin: 15px;
+    }
+
+    .slick-slide {
+        margin: 0;
+    }
+
+    .product-content {
+        text-align: center;
+    }
+
+    .product-image {
+        height: 141px;
+    }
+
+    .product-content-title {
+        font-size: 16px;
+    }
+
+    .products .slick-prev, .products .slick-next {
+        bottom: -15px;
+    }
+
+    .reviews-info .slick-initialized.slick-slider {
+        max-width: 306px;
+    }
+
+    .reviews-info .slick-prev {
+        left: 95px;
+    }
+
+    .reviews-info .slick-next {
+        right: 135px;
+    }
+
+    .reserve-image {
+        text-align: center;
+    }
+
+    .reserve-image img {
+        max-width: 80%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-networks {
+        order: 2;
+        margin-top: 40px;
+    }
+
+    .footer-address {
+        order: 3;
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .main-title {
+        font-size: 32px;
+    }
+}
+
+/*375-424*/
+@media only screen and (max-width: 424px) {
+    .main-title, .description-title, .differences-title, .menu-title, .reviews-title, .stock-title, .reserve-title {
+        font-size: 25px;
+    }
+
+    #chicken-container, #beef-container, #duck-container, #crab-container {
+        max-width: 360px;
+    }
+
+    .product-image {
+        height: 125px;
+    }
+
+    .product-content-title {
+        font-size: 16px;
+    }
+
+    .product-content-description {
+        font-size: 12px;
+    }
+
+    .slick-list.draggable {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .reviews-title {
+        margin-bottom: 30px;
+    }
+
+    .stock-menu img {
+        max-width: 290px;
+    }
+}
+
+/*320-374*/
+@media only screen and (max-width: 374px) {
+    .main-promotion-image img {
+        right: -90px;
+        width: 320px;
+        height: 310px;
+    }
+
+    .description-image {
+        width: 112%;
+        left: -21px;
+    }
+
+    .icon {
+        width: 35px;
+    }
+
+    #chicken-container, #beef-container, #duck-container, #crab-container {
+        max-width: 300px;
+    }
+
+    .products .slick-list.draggable {
+        width: 320px;
+        left: -17px;
+    }
+
+    .reviews-info .slick-prev {
+        left: 80px;
+    }
+
+    .reviews-info .slick-next {
+        right: 125px;
+    }
+
+    .reviews-info.slick-initialized.slick-slider {
+        max-width: 290px;
+    }
+
+    .reviews .slick-list.draggable {
+        width: 320px;
+        left: -3px;
+    }
+}
